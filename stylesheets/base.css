@@ -314,11 +314,21 @@
 }
 #benefits h2 {
 	color:#3A4C58;
-	font-weight: 300;
+	font-weight: bold;
+	text-shadow: 1px 1px #fff;
 }
 #benefits p {
-	color:#9d9d9d;
+	color:#fff;
 	font-size:1.2em;
+	font-weight: bold;
+}
+
+#benefits{
+	background:url('../images/app.jpg') top center no-repeat;
+	background-size: cover;
+	min-height: 400px;
+	width:100%;
+	margin: 35px 0 35px 0;
 }
 
 /* Pricing */
